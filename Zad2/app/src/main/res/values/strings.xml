@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">bmizad2</string>
+    <string name="title_home">Home</string>
+    <string name="title_bmiCalculator">BMI Calculator</string>
+    <string name="title_ppmCalculator">PPM Calculator</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="label_weight">Enter your weight:</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="hint_weight">Enter your weight in kg</string>
+    <string name="hint_height">Enter your height in m</string>
+    <string name="hint_age">Enter your age</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_home">"Welcome"</string>
+    <string name="label_pperesult">""</string>
+    <string name="label_male">"Male"</string>
+    <string name="label_female">"Female"</string>
+    <string name="label_heightcm">"Height (cm):"</string>
+    <string name="label_weightkg">"Weight (kg):"</string>
+    <string name="label_age">"Age:"</string>
+    <string name="label_recipes_title">"Sample recipes"</string>
+    <string name="button_recipe1">Recipe 1</string>
+    <string name="button_recipe2">Recipe 2</string>
+</resources>

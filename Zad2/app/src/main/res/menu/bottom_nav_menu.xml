@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_bmiCalculator"
+        android:icon="@drawable/baseline_calculate_24"
+        android:title="@string/title_bmiCalculator" />
+
+    <item
+        android:id="@+id/navigation_ppecalculator"
+        android:icon="@drawable/baseline_table_view_24"
+        android:title="@string/title_ppmCalculator" />
+
+    <item
+        android:id="@+id/navigation_recipes"
+        android:icon="@drawable/baseline_text_snippet_24"
+        android:title="@string/title_recipes" />
+
+</menu>
