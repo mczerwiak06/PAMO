@@ -1,4 +1,4 @@
-package com.example.bmizad2.ui.home;
+package com.example.bmizad2.ui.quiz;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,23 +9,19 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.bmizad2.databinding.FragmentHomeBinding;
+import com.example.bmizad2.databinding.FragmentQuizBinding;
 
-public class HomeFragment extends Fragment {
+public class QuizFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentQuizBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        QuizViewModel quizViewModel =
+                new ViewModelProvider(this).get(QuizViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentQuizBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-/*        final ImageView textView = binding.imageView3;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        */
 
         return root;
     }
