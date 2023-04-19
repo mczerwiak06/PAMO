@@ -22,4 +22,5 @@
     <string name="button_recipe1">Recipe 1</string>
     <string name="button_recipe2">Recipe 2</string>
     <string name="chartBmi">Your BMI</string>
+    <string name="quiz_header">Total Questions</string>
 </resources>

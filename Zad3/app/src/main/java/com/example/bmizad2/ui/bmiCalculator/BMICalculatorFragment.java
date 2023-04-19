@@ -2,7 +2,6 @@ package com.example.bmizad2.ui.bmiCalculator;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
-import android.media.audiofx.AudioEffect;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
