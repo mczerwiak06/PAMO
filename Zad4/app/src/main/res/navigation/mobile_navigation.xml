@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bmizad2.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_bmiCalculator"
+        android:name="com.example.bmizad2.ui.bmiCalculator.BMICalculatorFragment"
+        android:label="@string/title_bmiCalculator"
+        tools:layout="@layout/fragment_bmicalculator" />
+
+    <fragment
+        android:id="@+id/navigation_ppecalculator"
+        android:name="com.example.bmizad2.ui.notifications.PPEFragment"
+        android:label="@string/title_ppmCalculator"
+        tools:layout="@layout/fragment_ppecalculator" />
+
+    <fragment
+        android:id="@+id/navigation_recipes"
+        android:name="com.example.bmizad2.ui.recipes.RecipesFragment"
+        android:label="@string/title_recipes"
+        tools:layout="@layout/fragment_recipes" />
+
+    <fragment
+        android:id="@+id/navigation_quiz"
+        android:name="com.example.bmizad2.ui.quiz.QuizFragment"
+        android:label="@string/title_quiz"
+        tools:layout="@layout/fragment_quiz" />
+</navigation>
